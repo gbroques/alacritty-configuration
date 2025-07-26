@@ -42,8 +42,9 @@ style = "Italic"
 family = "JetBrainsMono NF"
 style = "Regular"
 
-[terminal.shell]
-program = "C:\\cygwin64\\bin\\fish.exe"
+[terminal]
+shell.program = "/opt/homebrew/bin/fish"
+shell.args = ["-C", "cd ~/Projects"]
 
 [window]
 startup_mode = "Maximized"
